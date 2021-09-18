@@ -84,6 +84,11 @@ body {
   color: #3829e0;
   margin-left: auto;
   text-align: right;
+  transition: all 200ms ease-in-out;
+}
+.pricing a:hover {
+  color: #6a5ee8;
+  text-decoration: none;
 }
 
 .buttons {
@@ -115,6 +120,8 @@ button {
   font-family: "Red Hat Display", sans-serif;
   padding: 1em;
   border-radius: 1em;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
 }
 
 .proceed {
@@ -124,10 +131,16 @@ button {
   -webkit-box-shadow: 0px 10px 20px 0px rgba(56, 41, 224, 0.3);
   -moz-box-shadow: 0px 10px 20px 0px rgba(56, 41, 224, 0.3);
 }
+.proceed:hover {
+  background: #6a5ee8;
+}
 
 .cancel {
   color: #7280a7;
   margin-top: 1em;
+}
+.cancel:hover {
+  color: #1f2f56;
 }
 
 /*# sourceMappingURL=main.css.map */

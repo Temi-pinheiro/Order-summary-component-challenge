@@ -99,6 +99,12 @@ body {
     margin-left: auto;
     text-align: right;
     // align-self: ;
+    transition: all 200ms ease-in-out;
+
+    &:hover {
+      color: lighten(colors.$Brightblue, 12);
+      text-decoration: none;
+    }
   }
 }
 
@@ -132,6 +138,8 @@ button {
   font-family: 'Red Hat Display', sans-serif;
   padding: 1em;
   border-radius: 1em;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
 }
 
 .proceed {
@@ -140,9 +148,17 @@ button {
   box-shadow: 0px 10px 20px 0px rgba(56, 41, 224, 0.3);
   -webkit-box-shadow: 0px 10px 20px 0px rgba(56, 41, 224, 0.3);
   -moz-box-shadow: 0px 10px 20px 0px rgba(56, 41, 224, 0.3);
+
+  &:hover {
+    background: lighten(colors.$Brightblue, 12);
+  }
 }
 
 .cancel {
   color: colors.$Desaturatedblue;
   margin-top: 1em;
+
+  &:hover {
+    color: colors.$Darkblue;
+  }
 }
