@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e0e8ff;
+  font-family: "Red Hat Display", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+  height: 70vh;
+  background-color: #f5f7ff;
+  border-radius: 1em;
+  margin-top: 20%;
+  box-shadow: 0px 20px 20px 0px rgba(56, 41, 224, 0.16);
+  -webkit-box-shadow: 0px 20px 20px 0px rgba(56, 41, 224, 0.16);
+  -moz-box-shadow: 0px 20px 20px 0px rgba(56, 41, 224, 0.16);
+  text-align: center;
+}
+@media (min-width: 425px) {
+  .card {
+    max-width: 400px;
+    margin-top: 10%;
+    align-self: center;
+    min-height: 550px;
+  }
+}
+
+.header-image img {
+  width: 100%;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  margin-top: 0;
+  padding: 0 1em;
+}
+
+.summary h1 {
+  color: #1f2f56;
+  font-size: 22px;
+  font-weight: 900;
+}
+.summary p {
+  margin-top: 1em;
+  color: #7280a7;
+  font-weight: 500;
+  text-justify: center;
+  padding: 0 1.5em;
+  font-size: 15px;
+}
+
+.pricing {
+  display: flex;
+  align-items: center;
+  background: #ebf0ff;
+  padding: 1em;
+  border-radius: 1em;
+}
+.pricing a {
+  font-size: 14px;
+  font-weight: 700;
+  color: #3829e0;
+  margin-left: auto;
+  text-align: right;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  color: #7280a7;
+  margin-left: 20px;
+  font-size: 15px;
+}
+.plan span {
+  font-weight: 900;
+  color: #1f2f56;
+  margin-bottom: 5px;
+}
+
+button {
+  font-weight: 700;
+  width: 100%;
+  font-size: 1em;
+  background: none;
+  outline: none;
+  border: none;
+  font-family: "Red Hat Display", sans-serif;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.proceed {
+  background: #3829e0;
+  color: #f5f7ff;
+  box-shadow: 0px 10px 20px 0px rgba(56, 41, 224, 0.3);
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(56, 41, 224, 0.3);
+  -moz-box-shadow: 0px 10px 20px 0px rgba(56, 41, 224, 0.3);
+}
+
+.cancel {
+  color: #7280a7;
+  margin-top: 1em;
+}
+
+/*# sourceMappingURL=main.css.map */
